@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - botanio > request > hawk:
+        patched: '2019-05-31T23:28:34.499Z'
+  'npm:hoek:20180212':
+    - botanio > request > hawk > hoek:
+        patched: '2019-05-31T23:28:34.499Z'
+    - botanio > request > hawk > boom > hoek:
+        patched: '2019-05-31T23:28:34.499Z'
+    - botanio > request > hawk > sntp > hoek:
+        patched: '2019-05-31T23:28:34.499Z'
+    - botanio > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-31T23:28:34.499Z'
+  'npm:request:20160119':
+    - botanio > request:
+        patched: '2019-05-31T23:28:34.499Z'
+  'npm:tunnel-agent:20170305':
+    - botanio > request > tunnel-agent:
+        patched: '2019-05-31T23:28:34.499Z'
