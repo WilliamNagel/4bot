@@ -24,8 +24,8 @@
     "node-cache": "^3.2.1",
     "proxyquire": "^1.7.3",
     "request": "2.82.0",
-    "winston": "^2.1.1",
-    "async": "2.3.0"
+    "winston": "^3.3.0",
+    "async": "3.2.2"
   },
   "engines": {
     "node": "4.8.4"
